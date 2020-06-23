@@ -61,5 +61,24 @@ export default createSchema({
         },
       ],
     },
+    {
+      name: "sponsor",
+      type: "document",
+      title: "Sponsor",
+      fields: [
+        {
+          name: "images",
+          type: "array",
+          options: {
+            layout: "grid",
+          },
+          of: [
+            {
+              type: "image",
+            },
+          ],
+        },
+      ],
+    },
   ]),
 });
