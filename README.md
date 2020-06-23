@@ -2,3 +2,5 @@
 
     npm ci
     npm start
+
+The Studio is served from http://localhost:3333
